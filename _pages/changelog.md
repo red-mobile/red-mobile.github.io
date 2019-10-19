@@ -8,6 +8,24 @@ include_in_header: true
 
 ## `Latest`
 
+### **Version 1.9.1 (2019/10/19)**
+
+#### What's New
+
+- Updated the vulnerable library to improve security
+- update packages
+    - Node-RED@1.0.2
+    - node-red-dashboard@2.17.1
+
+----
+### **Version 1.9.0 (2019/10/05)**
+
+#### What's New
+
+- update packages
+    - Node-RED@1.0.1
+    - node-red-dashboard@2.17.0
+
 ### **Version 1.8.1**
 
 #### What's New
@@ -16,8 +34,6 @@ include_in_header: true
 - update Node-RED@0.20.8
 - update node-red-contrib-telegrambot@5.5.2
 - update node-red-dashboard@2.16.2
-
-----
 
 ### **Version 1.7.1**
 
