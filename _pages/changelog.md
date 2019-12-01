@@ -8,6 +8,33 @@ include_in_header: true
 
 ## `Latest`
 
+### **Version 1.9.6 (2019/12/1)**
+
+#### What's New
+
+Update Packages
+
+- node-red-dashboard@2.19.0
+- node-red-contrib-telegrambot@7.0.0
+- node-red-contrib-cast@0.2.12
+
+----
+### **Version 1.9.5 (2019/11/23)**
+
+#### What's New
+
+- update node-red@1.0.3
+- update node-red-node-email@1.7.2
+
+### **Version 1.9.4 (2019/11/9)**
+
+#### What's New
+
+- update serial node
+- update pacakges
+    - node-red-contrib-telegrambot@6.0.0
+    - node-red-node-base64@0.2.0
+
 ### **Version 1.9.1 (2019/10/19)**
 
 #### What's New
@@ -17,7 +44,6 @@ include_in_header: true
     - Node-RED@1.0.2
     - node-red-dashboard@2.17.1
 
-----
 ### **Version 1.9.0 (2019/10/05)**
 
 #### What's New
