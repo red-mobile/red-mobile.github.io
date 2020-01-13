@@ -8,6 +8,38 @@ include_in_header: true
 
 ## `Latest`
 
+### **Version 2.0.1 (2020/1/11)**
+
+#### Bugfix
+
+- fixed that data cannot be overwritten by msg.payload on serial node
+
+#### Update Nodes
+
+- node-red-contrib-cast@0.2.13
+- node-red-node-email@1.7.4
+
+----
+
+### **Version 2.0.0 (2020/1/2)**
+
+#### New Node
+
+- sqlite node
+
+### **Version 1.9.7 (2019/12/15)**
+
+#### New Node
+
+- node-red-contrib-ui-svg@1.2.2
+
+#### Update Packages
+
+- node-red-dashboard@2.19.2
+- node-red-node-email@1.7.3
+- node-red-node-feedparser@0.1.15
+- node-red-node-twitter@1.1.6
+
 ### **Version 1.9.6 (2019/12/1)**
 
 #### What's New
@@ -18,7 +50,6 @@ Update Packages
 - node-red-contrib-telegrambot@7.0.0
 - node-red-contrib-cast@0.2.12
 
-----
 ### **Version 1.9.5 (2019/11/23)**
 
 #### What's New
