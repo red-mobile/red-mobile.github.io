@@ -8,6 +8,33 @@ include_in_header: true
 
 ## `Latest`
 
+
+### **Version 2.2.3 (2020/2/5)**
+
+#### Feature
+
+- add BLE node
+- add node-red-contrib-image-output@0.5.2
+- add camera node sample
+- change the return value when taking a photo
+
+#### Update Nodes
+
+- node-red-node-email@1.7.4
+
+#### Breaking Change
+
+msg.payload has been modified from array to string in the method to take a picture of the camera node.
+
+#### Note
+
+When using a BLE node, allow the permissions of
+
+- android.permission.BLUETOOTH 
+- android.permission.BLUETOOTH_ADMIN
+
+----
+
 ### **Version 2.0.1 (2020/1/11)**
 
 #### Bugfix
@@ -18,8 +45,6 @@ include_in_header: true
 
 - node-red-contrib-cast@0.2.13
 - node-red-node-email@1.7.4
-
-----
 
 ### **Version 2.0.0 (2020/1/2)**
 
