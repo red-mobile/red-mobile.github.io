@@ -140,6 +140,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  ads:
+    output: true
+    permalink: /app-ads.txt
 
 # Markdown rendering
 markdown: kramdown
