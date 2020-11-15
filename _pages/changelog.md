@@ -6,357 +6,522 @@ include_in_header: true
 
 # Changelog
 
-## `Latest`
+## [Unreleased][5.0.0] - 2020-11-15 🧪
+
+Nothing seems to have changed, but internally we are making significant updates.
+We believe that this change will make the app better.
+
+Open testing has begun. 
+
+👉 https://play.google.com/apps/testing/com.okhiroyuki.redmobile
+
+Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+
+### Changed
+
+- Update node.js@12.19.0
+- Update node-packages
+  - node-red@1.2.3
+  - node-red-dashboard@2.24.0
+
+## [4.0.0] - 2020-11-15 🚀
+
+node-red-contrib-mqtt-broker has been replaced by node-red-contrib-aedes.
+
+Users who were using mqtt should be aware of this change.
+
+### Added
+
+- node-red-contrib-aedes
+
+### Removed
+
+- node-red-contrib-mqtt-broker
+
+### Security
+
+- audit fix
+  - acron
+  - dot-prop
+  - lodash
+  - minimist
+  - requires
+
+## [3.5.0] - 2020-11-01
+
+The main content is to update the node module.
+
+### Changes
+
+- update node-packages
+  - node-red@1.2.2
+  - node-red-dashboard@2.23.5
+  - node-red-node-email@1.8.2
+  - node-red-node-pushbullet@0.0.17
+  - node-red-contrib-string@1.0.0
+  - node-red-contrib-telegrambot@8.7.1
+  - node-red-contrib-ui-svg@2.0.3
+
+## [3.4.0] - 2020-08-24
+
+Added a node to manipulate the clipboard, which was also in [the request](https://groups.google.com/g/redmobile-apps/c/hV2_NwzHL8E/m/-jLE8-QKAgAJ).
+
+### Added
+
+- Clipboard Node
+
+### Changes
+
+- Update targetSDK@29
+- Update node-packages
+  - node-red@1.1.3
+  - node-red-dashboard@2.23.2
+  - node-red-contrib-telegrambot@8.4.0
+
+### Fixed
+
+- Fixed the volume node request error
+
+## [3.3.1] - 2020-07-05
+
+The version of Node has been updated from Series 10 to Series 12.
+
+### Changes
+
+- Update node.js@12.16.0
+- Update node-packages
+  - node-red@1.1.0
+  - node-red-contrib-telegrambot@8.2.0
+  - node-red-dashboard@2.22.1
+  - node-red-node-feedparser@0.1.16
+  - node-red-contrib-image-output@0.6.3
 
 
-### **Version 2.2.3 (2020/2/5)**
+## [3.2.0] - 2020-04-25
 
-#### Feature
+The main content is to update the node module.
 
-- add BLE node
-- add node-red-contrib-image-output@0.5.2
-- add camera node sample
-- change the return value when taking a photo
+### Changes
 
-#### Update Nodes
+- Update node-packages
+  - node-red@1.0.6
+  - node-red-contrib-image-output@0.5.3
+  - node-red-contrib-telegrambot@7.2.0
+  - node-red-dashboard@2.21.0
+  - node-red-node-email@1.7.8
+  - node-red-contrib-ui-svg@1.2.3
 
-- node-red-node-email@1.7.4
+## [3.1.0] - 2020-04-03
 
-#### Breaking Change
+The method of obtaining sensor data has been significantly modified.
+
+### Changed
+
+- Update camera node
+  - When the camera is opened, the orientation of the camera can be specified.
+
+
+## [2.4.0] - 2020-03-02
+
+### Added
+
+- node-red-contrib-string
+
+### Changed
+
+- Update packages
+  - node-red@1.0.4
+  - node-red-contrib-cast@0.2.14
+  - node-red-node-email@1.7.7
+  - node-red-contrib-mqtt-broker@0.2.5
+
+## [2.3.0] - 2020-02-09
+
+This update includes a breaking change.
+The output of a serial node has been changed.
+
+### Changed
+
+- Update Serial node
+
+## [2.2.3] - 2020-02-05
 
 msg.payload has been modified from array to string in the method to take a picture of the camera node.
-
-#### Note
 
 When using a BLE node, allow the permissions of
 
 - android.permission.BLUETOOTH 
 - android.permission.BLUETOOTH_ADMIN
 
-----
+### Added
 
-### **Version 2.0.1 (2020/1/11)**
+- BLE node
+- node-red-contrib-image-output@0.5.2
+- camera node sample
 
-#### Bugfix
+### Changed
 
-- fixed that data cannot be overwritten by msg.payload on serial node
+- Change the return value when taking a photo
+- Update packages
+  - node-red-node-email@1.7.4
 
-#### Update Nodes
+## [2.0.1] - 2020-01-11
 
-- node-red-contrib-cast@0.2.13
-- node-red-node-email@1.7.4
+### Changed
 
-### **Version 2.0.0 (2020/1/2)**
+- Update packages
+  - node-red-contrib-cast@0.2.13
+  - node-red-node-email@1.7.4
 
-#### New Node
+### Fixed
+
+- Fixed that data cannot be overwritten by msg.payload on serial node
+
+## [2.0.0] - 2020-01-02
+
+### Added
 
 - sqlite node
 
-### **Version 1.9.7 (2019/12/15)**
+## [1.9.7] - 2019-12-15
 
-#### New Node
+### Added
 
-- node-red-contrib-ui-svg@1.2.2
+- node-red-contrib-ui-svg
 
-#### Update Packages
+### Changed
 
-- node-red-dashboard@2.19.2
-- node-red-node-email@1.7.3
-- node-red-node-feedparser@0.1.15
-- node-red-node-twitter@1.1.6
+- Update packages
+  - node-red-dashboard@2.19.2
+  - node-red-node-email@1.7.3
+  - node-red-node-feedparser@0.1.15
+  - node-red-node-twitter@1.1.6
 
-### **Version 1.9.6 (2019/12/1)**
+## [1.9.6] - 2019-12-01
 
-#### What's New
+### Changed
 
-Update Packages
+- Update packages
+  - node-red-dashboard@2.19.0
+  - node-red-contrib-telegrambot@7.0.0
+  - node-red-contrib-cast@0.2.12
 
-- node-red-dashboard@2.19.0
-- node-red-contrib-telegrambot@7.0.0
-- node-red-contrib-cast@0.2.12
+## [1.9.5] - 2019-11-23
 
-### **Version 1.9.5 (2019/11/23)**
+### Changed
 
-#### What's New
+- Update packages
+  - node-red@1.0.3
+  - node-red-node-email@1.7.2
 
-- update node-red@1.0.3
-- update node-red-node-email@1.7.2
+## [1.9.4] - 2019-11-09
 
-### **Version 1.9.4 (2019/11/9)**
+### Changed
 
-#### What's New
+- Update the serial node
+- Update packages
+  - node-red-contrib-telegrambot@6.0.0
+  - node-red-node-base64@0.2.0
 
-- update serial node
-- update pacakges
-    - node-red-contrib-telegrambot@6.0.0
-    - node-red-node-base64@0.2.0
+## [1.9.1] -  2019-10-19
 
-### **Version 1.9.1 (2019/10/19)**
-
-#### What's New
+### Changed
 
 - Updated the vulnerable library to improve security
-- update packages
-    - Node-RED@1.0.2
-    - node-red-dashboard@2.17.1
+- Update packages
+  - node-red@1.0.2
+  - node-red-dashboard@2.17.1
 
-### **Version 1.9.0 (2019/10/05)**
+## [1.9.0] - 2019-10-05
 
-#### What's New
+### Updated
 
-- update packages
-    - Node-RED@1.0.1
-    - node-red-dashboard@2.17.0
+- Update node-packages
+  - node-red@1.0.1
+  - node-red-dashboard@2.17.0
 
-### **Version 1.8.1**
+## [1.8.1] - 2019-09-08
 
-#### What's New
+### Added
 
-- add startActivityNode
-- update Node-RED@0.20.8
-- update node-red-contrib-telegrambot@5.5.2
-- update node-red-dashboard@2.16.2
+- THe startActivity node
 
-### **Version 1.7.1**
+### Changed
 
-#### What's New
+- update node-packages
+  - node-red@0.20.8
+  - node-red-contrib-telegrambot@5.5.2
+  - node-red-dashboard@2.16.2
 
-- add the serial USB node
-- add the volume node that allows volume control
+## [1.7.1] - 2019-08-22
 
-### **Version 1.6.1**
+### Added
 
-#### What's New
+- The serial USB node
+- The volume node that allows volume control
 
-- add the camera node
+## [1.6.1] - 2019-08-16
 
-#### Bug Fixes
+### Added
+
+- camera node
+
+### Fixed
 
 - Fixed background notification message
 
-### **Version 1.5.0**
+## [1.5.0] - 2019-07-21
 
-#### What's New
+### Chagend
 
-- update Node-RED@0.20.7
-- update node-red-dashboard@2.15.5
-- update node-red-contrib-cast@0.2.8
+- Update node-packages
+  - node-red@0.20.7
+  - node-red-dashboard@2.15.5
+  - node-red-contrib-cast@0.2.8
 
-### **Version 1.4.12**
+## [1.4.12] - 2019-06-23
 
-#### Bug Fixes
+### Fixed
 
 - Fixed AutoStart
 
-### **Version 1.4.11**
+## [1.4.11] - 2019-06-22
 
-#### What's New
+### Added
 
-- update Node-RED@0.20.6
-- update node-red-dashboard@2.15.4
-- add keepAwake switch
+- Add keepAwake switch
 
-### **Version 1.4.6**
+### Changed
 
-#### What's New
+- Update node-packages
+  - node-red@0.20.6
+  - node-red-dashboard@2.15.4
 
-- update some modules
+## [1.4.8] - 2019-05-28
 
-### **Version 1.4.5**
+Pushbullet can be used on multiple platforms as well as IFTTT integration, so it should be useful in many ways.
 
-#### What's New
+### Added
 
-- add node-red-contrib-cast
+- node-red-node-pushbullet.
 
-### **Version 1.4.3**
+### Updated
 
-#### What's New
+- update node-red-dashboard@2.15.3
 
-- add node-red-node-dropbox
 
-### **Version 1.4.2**
+## [1.4.6] - 2019-05-15
 
-#### What's New
+Update some modules
 
-- add node-red-contrib-telegrambot
+## [1.4.5] - 2019-05-07
 
-### **Version 1.4.1**
+### Added
 
-- minor bug fixes
+- node-red-contrib-cast
 
-### **Version 1.4.0**
+## [1.4.3] - 2019-05-03
 
-#### What's New
+### Added
 
-- add dBNode
-- add AutoStart Switch
+- node-red-node-dropbox
 
-### **Version 1.4.0**
+## [1.4.2] - 2019-04-30
 
-#### What's New
+### Added
 
-- add dBNode
-- add AutoStart Switch
+- node-red-contrib-telegrambot
 
-### **Version 1.3.9**
+## [1.4.1] - 2019-04-30
 
-#### What's New
+minor bug fixes
 
-- change support api level from 21+ to 22+
+## [1.4.0] - 2019-04-30
 
-### **Version 1.3.8**
+### Added
 
-#### What's New
+- dBNode
+- AutoStart Switch
 
-- update icon
-- update ip address when app is displayed
+## [1.3.9] - 2019-04-27
 
-### **Version 1.3.7**
+### Updated
 
-#### What's New
+- Change support api level from 21+ to 22+
 
-- optimized background behavior (do not terminate the app with the back button)
-- add App Shortcuts menu ( android 7.1 or later)
+## [1.3.8] - 2019-04-27
+
+### Changed
+
+- Change icon
+- Update ip address when app is displayed
+
+## [1.3.7] - 2019-04-22
+
+### Added
+
+- Optimized background behavior (do not terminate the app with the back button)
+- App Shortcuts menu ( android 7.1 or later)
   - show Dashboard
   - pinned Dashboard（Android 8.0 or later)
 
-### **Version 1.3.5**
+## [1.3.5] - 2019-04-14
 
-- minor bug fixes
+minor bug fixes
 
-### **Version 1.3.4**
+## [1.3.4] - 2019-04-07
 
-#### What's New
+### Added
 
-- add Magnetic Sensor Node
+- Magnetic Sensor Node
 
-### **Version 1.3.3**
+## [1.3.3] - 2019-04-07
 
-#### What's New
+### Added
 
-- add Gyroscope Sensor Node
-- update ui
+- Gyroscope Sensor Node
 
-### **Version 1.3.2**
+### Changed
 
-#### What's New
+- Update ui
 
-- update NodeRED@0.20.5
-- update nodejs@10.13.0
+## [1.3.2] - 2019-04-05
 
-### **Version 1.3.1**
+### Changed
 
-#### What's New
+- Update node@10.13.0
+- Update node-red@0.20.5
 
-- add the ability to update NodeRED's flows by updating local flows.json from the app.
+## [1.3.1] - 2019-04-02
 
-### **Version 1.3.0**
+### Added
 
-#### What's New
+- The ability to update NodeRED's flows by updating local flows.json from the app.
 
-- add dashboard access button
+## [1.3.0] - 2019-03-31
 
-### **Version 1.2.11**
+### Added
 
-#### Bug Fixes
+- dashboard access button
 
-- fix link connection
+## [1.2.11] - 2019-03-30
 
-### **Version 1.2.10**
+### Fixed
 
-#### What's New
+- fixed link connection
 
-- update node icon
+## [1.2.10] - 2019-03-30
 
-#### Bug Fixes
+### Changed
 
-- fix speech synthesis node
+- Update node icon
 
-### **Version 1.2.9**
+### Fixed
 
-#### What's New
+- Fixed speech synthesis node
 
-- add node-red-contrib-mqtt-broker
-- add node-red-node-base64
+## [1.2.9] - 2019-03-27
 
-### **Version 1.2.8**
+### Added
 
-#### What's New
+- add node-packages
+  - node-red-contrib-mqtt-broker
+  - node-red-node-base64
+
+## [1.2.8] - 2019-03-26
+
+### Changed
 
 - Modified the display part of the IP address.
 - With this modification, it also supports IP address display when using Wifi Hotspot.
 
-### **Version 1.2.7**
+## [1.2.7] - 2019-03-24
 
-#### What's New
+### Added
 
 - add proximity node
+
+### Changed
+
 - change node name
 
-### **Version 1.2.6**
+## [1.2.6] - 2019-03-23
 
-#### What's New
+### Added
 
-- add vibrate node
-- add dialogs node（alert, confirm, prompt, beep)
-- supports URL scheme (redmobile://)
+- Add new node
+  - vibrate
+  - dialogs node（alert, confirm, prompt, beep)
+- Supports URL scheme (redmobile://)
 
-### **Version 1.2.5**
+## [1.2.5] - 2019-03-21
 
-#### What's New
+### Added
 
 - add InAppBrower node
 
-### **Version 1.2.4**
+## [1.2.4] - 2019-03-21
 
-#### What's New
+### Added
 
-- update NodeRED@0.20.3
-- add voice recognition node
-- add speech synthesis node
-- remove tail node
+- Add new node
+  - voice recognition
+  - speech synthesis
 
-### **Version 1.2.3**
+### Changed
 
-#### What's New
+- Update node-red@0.20.3
 
-- add geolocation node
-- add battery status node
+### Remved
 
-#### Bug Fixes
+- tail node
+
+## [1.2.3] - 2019-03-19
+
+### Added
+
+- Add new node
+  - geolocation
+  - battery status
+
+### Fixed
 
 - fixed an internal error caused by the contents of the port
 - fixed an issue where could enter a value less than zero in the port number
 
-### **Version 1.2.2**
+## [1.2.2] - 2019-03-19
 
-#### What's New
+### Added
 
-- add motion node
-- add light node
-- add compass node
+- Add new node
+  - motion
+  - light
+  - compass
 
-### **Version 1.1.3**
+## [1.1.3] - 2019-03-16
 
-#### What's New
+### Changed
 
-- update Node-RED@0.20.2
+- Update node-red@0.20.2
 
-### **Version 1.1.2**
+## [1.1.2] - 2019-03-14
 
-#### What's New
+### Added
 
-- add loading animation
+- loading animation
 
-### **Version 1.1.1**
+## [1.1.1] - 2019-03-14
 
-#### What's New
+### Added
 
-- add port check function
-- speed ​​up display of server url
+- Port check function
 
-### **Version 1.1.0**
+### Changes
 
-#### What's New
+- Speed ​​up display of server url
 
-- update Node-RED@0.20.0
+## [1.1.0] - 2019-03-13
+
+### Changes
+
+- Update node-red@0.20.0
