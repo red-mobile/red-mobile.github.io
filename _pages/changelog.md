@@ -11,9 +11,9 @@ include_in_header: true
 Nothing seems to have changed, but internally we are making significant updates.
 We believe that this change will make the app better.
 
-Open testing has begun. 
+Open testing has begun.
 
-👉 https://play.google.com/apps/testing/com.okhiroyuki.redmobile
+👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
 
 Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
 
@@ -46,6 +46,8 @@ Users who were using mqtt should be aware of this change.
   - lodash
   - minimist
   - requires
+
+---
 
 ## [3.5.0] - 2020-11-01
 
