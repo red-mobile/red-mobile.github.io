@@ -6,7 +6,7 @@ include_in_header: true
 
 # Changelog
 
-## [Unreleased][5.0.0] - 2020-11-15 🧪
+## [5.0.0] - 2020-11-21 🚀
 
 Nothing seems to have changed, but internally we are making significant updates.
 We believe that this change will make the app better.
@@ -24,7 +24,9 @@ Please join us and give us your [feedback](https://groups.google.com/g/redmobile
   - node-red@1.2.3
   - node-red-dashboard@2.24.0
 
-## [4.0.0] - 2020-11-15 🚀
+---
+
+## [4.0.0] - 2020-11-15
 
 node-red-contrib-mqtt-broker has been replaced by node-red-contrib-aedes.
 
@@ -46,8 +48,6 @@ Users who were using mqtt should be aware of this change.
   - lodash
   - minimist
   - requires
-
----
 
 ## [3.5.0] - 2020-11-01
 
