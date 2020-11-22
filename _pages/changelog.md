@@ -5,12 +5,18 @@ include_in_header: true
 ---
 
 # Changelog
-## [Unreleased][5.1.0] - 2020-11-22 🧪
+## [Unreleased][5.2.0] - 2020-11-22 🧪
 
 With this update, we have added support for Firebase Cloud Message.
-This allows you to receive data messages via the API.
+It allows you to receive data messages via the API.
 
-We've also added nodes for the UI.
+We have also added a new node.
+
+- sqcode scan
+- node-red-node-ui-lineargauge
+- node-red-node-ui-list
+- node-red-node-ui-table
+- node-red-node-ui-vega
 
 Open testing has begun.
 
