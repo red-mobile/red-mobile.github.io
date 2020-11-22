@@ -6,15 +6,19 @@ include_in_header: true
 
 # Changelog
 
-## [OpenTest][5.2.0] - 2020-11-22 🧪
+## [OpenTest][5.2.1] - 2020-11-22 🧪
 
-Added a node for reading qrcodes.
+Fixed the back button behavior of qrcode node.
 
 Open testing has begun.
 
 👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
 
 Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+
+## [OpenTest][5.2.0] - 2020-11-22 🧪
+
+Added a node for reading qrcodes.
 
 ### Changed
 
