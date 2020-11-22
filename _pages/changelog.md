@@ -5,17 +5,32 @@ include_in_header: true
 ---
 
 # Changelog
+## [Unreleased][5.1.0] - 2020-11-22 🧪
 
-## [5.0.0] - 2020-11-21 🚀
+With this update, we have added support for Firebase Cloud Message.
+This allows you to receive data messages via the API.
 
-Nothing seems to have changed, but internally we are making significant updates.
-We believe that this change will make the app better.
+We've also added nodes for the UI.
 
 Open testing has begun.
 
 👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
 
 Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+
+### Changed
+
+- add fcm(Firebase Cloud Message) node
+- add node-packages
+  - node-red-node-ui-lineargauge
+  - node-red-node-ui-list
+  - node-red-node-ui-table
+  - node-red-node-ui-vega
+
+## [5.0.0] - 2020-11-21 🚀
+
+Nothing seems to have changed, but internally we are making significant updates.
+We believe that this change will make the app better.
 
 ### Changed
 
