@@ -31,23 +31,37 @@ Please join us and give us your [feedback](https://groups.google.com/g/redmobile
 - node-red-node-email
 - node-red-node-pushbullet
 
-## [OpenTest][5.4.0] - 2020-11-23 🧪
+## [Production][5.0.0] - 2020-11-21 🚀
+
+Nothing seems to have changed, but internally we are making significant updates.
+We believe that this change will make the app better.
+
+### Changed
+
+- Update node.js@12.19.0
+- Update node-packages
+  - node-red@1.2.3
+  - node-red-dashboard@2.24.0
+
+---
+
+## [Unreleased][5.4.0] - 2020-11-23 🧪
 
 Removed UI nodes that are not optimized for mobile screens and nodes that are expected to run in the background, as they cannot be guaranteed to work.
 
 Also, modified to handle image data in Base64.
 
-## [OpenTest][5.3.0] - 2020-11-23 🧪
+## [Unreleased][5.3.0] - 2020-11-23 🧪
 
 MLKit is now available. It's still in beta, so the specs may change in the future.
 
 Also, a new camera node has been added. The existing camera nodes are deprecated and may be removed in the future.
 
-## [OpenTest][5.2.1] - 2020-11-22 🧪
+## [Unreleased][5.2.1] - 2020-11-22 🧪
 
 Fixed the back button behavior of qrcode node.
 
-## [OpenTest][5.2.0] - 2020-11-22 🧪
+## [Unreleased][5.2.0] - 2020-11-22 🧪
 
 Added a node for reading qrcodes.
 
@@ -68,21 +82,6 @@ It allows you to receive data messages via the API.
   - node-red-node-ui-list
   - node-red-node-ui-table
   - node-red-node-ui-vega
-
-
-## [Production][5.0.0] - 2020-11-21 🚀
-
-Nothing seems to have changed, but internally we are making significant updates.
-We believe that this change will make the app better.
-
-### Changed
-
-- Update node.js@12.19.0
-- Update node-packages
-  - node-red@1.2.3
-  - node-red-dashboard@2.24.0
-
----
 
 ## [4.0.0] - 2020-11-15
 
