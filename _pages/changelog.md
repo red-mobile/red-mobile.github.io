@@ -6,15 +6,46 @@ include_in_header: true
 
 # Changelog
 
-## [OpenTest][5.2.1] - 2020-11-22 🧪
+## [OpenTest][5.5.0] - 2020-11-27 🧪
 
-Fixed the back button behavior of qrcode node.
+Specializing in things that can only be done on Android devices.
+Faster startup and support for edge AI and FCM.
 
 Open testing has begun.
 
 👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
 
 Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+
+### Changed
+
+- update packages
+  - node-red
+  - node-red-dashboard
+
+### Removed
+
+- node-red-contrib-aedes
+- node-red-contrib-cast
+- node-red-node-dropbox
+- node-red-node-email
+- node-red-node-pushbullet
+
+## [OpenTest][5.4.0] - 2020-11-23 🧪
+
+Removed UI nodes that are not optimized for mobile screens and nodes that are expected to run in the background, as they cannot be guaranteed to work.
+
+Also, modified to handle image data in Base64.
+
+## [OpenTest][5.3.0] - 2020-11-23 🧪
+
+MLKit is now available. It's still in beta, so the specs may change in the future.
+
+Also, a new camera node has been added. The existing camera nodes are deprecated and may be removed in the future.
+
+## [OpenTest][5.2.1] - 2020-11-22 🧪
+
+Fixed the back button behavior of qrcode node.
 
 ## [OpenTest][5.2.0] - 2020-11-22 🧪
 
