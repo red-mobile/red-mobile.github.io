@@ -42,8 +42,8 @@ features                                  :
     description                           : Android-specific nodes such as sensors, camera, voice recognition / speech synthesis, and serial communication are available.
     fontawesome_icon_name                 : star
 
-  - title                                 : Additional nodes
-    description                           : node-red-dashboard / node-red-node-base64 / node-red-contrib-telegrambot / node-red-node-dropbox / node-red-contrib-cast
+  - title                                 : Machine learning
+    description                           : With the camera and the ML Kit(beta), machine learning image analysis is easy to try.
     fontawesome_icon_name                 : play-circle
 
   - title                                 : Set Auth & Port changeable
