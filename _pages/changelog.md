@@ -6,9 +6,9 @@ include_in_header: true
 
 # Changelog
 
-## [OpenTest][5.5.1] - 2020-11-28 🧪
+## [OpenTest][5.5.2] - 2020-11-28 🧪
 
-Modified the UI slightly.
+Support for [multiple context stores](https://nodered.org/docs/user-guide/context#using-context-in-a-flow) in Node-RED.
 
 Open testing has begun.
 
@@ -29,6 +29,10 @@ We believe that this change will make the app better.
   - node-red-dashboard@2.24.0
 
 ---
+
+## [OpenTest][5.5.1] - 2020-11-28 🧪
+
+Modified the UI slightly.
 
 ## [OpenTest][5.5.0] - 2020-11-27 🧪
 
