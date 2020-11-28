@@ -6,33 +6,42 @@ include_in_header: true
 
 # Changelog
 
-## [OpenTest][5.5.2] - 2020-11-28 🧪
+## [Production][5.5.2] - 2020-11-28 🚀
 
-Support for [multiple context stores](https://nodered.org/docs/user-guide/context#using-context-in-a-flow) in Node-RED.
+Specializing in things that can only be done on Android devices.
+Faster startup and support for edge AI and FCM.
 
-Open testing has begun.
+### Feature
 
-👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
-
-Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
-
-## [Production][5.0.0] - 2020-11-21 🚀
-
-Nothing seems to have changed, but internally we are making significant updates.
-We believe that this change will make the app better.
+- add qrcode scan node
+- add mlkit node
+- Support for [multiple context stores](https://nodered.org/docs/user-guide/context#using-context-in-a-flow) in Node-RED.
 
 ### Changed
 
-- Update node.js@12.19.0
-- Update node-packages
-  - node-red@1.2.3
-  - node-red-dashboard@2.24.0
+- update packages
+  - node-red
+  - node-red-dashboard
+
+### Removed
+
+- node-red-contrib-aedes
+- node-red-contrib-cast
+- node-red-node-dropbox
+- node-red-node-email
+- node-red-node-pushbullet
 
 ---
 
 ## [OpenTest][5.5.1] - 2020-11-28 🧪
 
 Modified the UI slightly.
+
+Open testing has begun.
+
+👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
+
+Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
 
 ## [OpenTest][5.5.0] - 2020-11-27 🧪
 
@@ -90,6 +99,18 @@ It allows you to receive data messages via the API.
   - node-red-node-ui-list
   - node-red-node-ui-table
   - node-red-node-ui-vega
+
+## [5.0.0] - 2020-11-21 🚀
+
+Nothing seems to have changed, but internally we are making significant updates.
+We believe that this change will make the app better.
+
+### Changed
+
+- Update node.js@12.19.0
+- Update node-packages
+  - node-red@1.2.3
+  - node-red-dashboard@2.24.0
 
 ## [4.0.0] - 2020-11-15
 
