@@ -10,7 +10,7 @@ include_in_header: true
 
 Environment variables can now be added.
 
-https://youtu.be/2ND7LPIFAGM
+[https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
 
 Open testing has begun.
 
