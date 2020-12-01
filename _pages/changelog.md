@@ -51,12 +51,6 @@ Environment variables can now be added.
 
 [https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
 
-Open testing has begun.
-
-👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
-
-Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
-
 ## [OpenTest][5.5.1] - 2020-11-28 🧪
 
 Modified the UI slightly.
