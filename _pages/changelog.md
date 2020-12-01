@@ -6,11 +6,11 @@ include_in_header: true
 
 # Changelog
 
-## [OpenTest][5.6.0] - 2020-11-29 🧪
+## [OpenTest][5.6.1] - 2020-12-01 🧪
 
-Environment variables can now be added.
+node-red-dashboard update. And a few UI fixes.
 
-[https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
+<img src="../assets/screenshot/v562.png" width="200px">
 
 Open testing has begun.
 
@@ -44,6 +44,18 @@ Faster startup and support for edge AI and FCM.
 - node-red-node-pushbullet
 
 ---
+
+## [OpenTest][5.6.0] - 2020-11-29 🧪
+
+Environment variables can now be added.
+
+[https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
+
+Open testing has begun.
+
+👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
+
+Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
 
 ## [OpenTest][5.5.1] - 2020-11-28 🧪
 
