@@ -10,7 +10,7 @@ include_in_header: true
 
 node-red-dashboard update. And a few UI fixes.
 
-<img src="../assets/screenshot/v562.png" width="200px">
+<img src="../assets/v562.png" width="200px">
 
 Open testing has begun.
 
