@@ -6,19 +6,17 @@ include_in_header: true
 
 # Changelog
 
-## [OpenTest][5.6.1] - 2020-12-01 🧪
+## [Test][5.6.2] - 2020-12-02 🧪
 
-node-red-dashboard update. And a few UI fixes.
-
-<img src="../assets/v562.png" width="200px">
+Minor bug fixes.
 
 Open testing has begun.
 
-👉 [Join opentest](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
+👉 [Join Test](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
 
 Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
 
-## [Production][5.5.2] - 2020-11-28 🚀
+## [Release][5.5.2] - 2020-11-28 🚀
 
 Specializing in things that can only be done on Android devices.
 Faster startup and support for edge AI and FCM.
@@ -45,17 +43,23 @@ Faster startup and support for edge AI and FCM.
 
 ---
 
-## [OpenTest][5.6.0] - 2020-11-29 🧪
+## [Test][5.6.1] - 2020-12-01 🧪
+
+node-red-dashboard update. And a few UI fixes.
+
+<img src="../assets/v562.png" width="200px">
+
+## [Test][5.6.0] - 2020-11-29 🧪
 
 Environment variables can now be added.
 
 [https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
 
-## [OpenTest][5.5.1] - 2020-11-28 🧪
+## [Test][5.5.1] - 2020-11-28 🧪
 
 Modified the UI slightly.
 
-## [OpenTest][5.5.0] - 2020-11-27 🧪
+## [Test][5.5.0] - 2020-11-27 🧪
 
 Specializing in things that can only be done on Android devices.
 Faster startup and support for edge AI and FCM.
@@ -74,23 +78,23 @@ Faster startup and support for edge AI and FCM.
 - node-red-node-email
 - node-red-node-pushbullet
 
-## [OpenTest][5.4.0] - 2020-11-23 🧪
+## [Test][5.4.0] - 2020-11-23 🧪
 
 Removed UI nodes that are not optimized for mobile screens and nodes that are expected to run in the background, as they cannot be guaranteed to work.
 
 Also, modified to handle image data in Base64.
 
-## [OpenTest][5.3.0] - 2020-11-23 🧪
+## [Test][5.3.0] - 2020-11-23 🧪
 
 MLKit is now available. It's still in beta, so the specs may change in the future.
 
 Also, a new camera node has been added. The existing camera nodes are deprecated and may be removed in the future.
 
-## [OpenTest][5.2.1] - 2020-11-22 🧪
+## [Test][5.2.1] - 2020-11-22 🧪
 
 Fixed the back button behavior of qrcode node.
 
-## [OpenTest][5.2.0] - 2020-11-22 🧪
+## [Test][5.2.0] - 2020-11-22 🧪
 
 Added a node for reading qrcodes.
 
@@ -98,7 +102,7 @@ Added a node for reading qrcodes.
 
 - add qrcode scan node
 
-## [OpenTest][5.1.0] - 2020-11-22 🧪
+## [Test][5.1.0] - 2020-11-22 🧪
 
 With this update, we have added support for Firebase Cloud Message.
 It allows you to receive data messages via the API.
