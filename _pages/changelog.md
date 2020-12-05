@@ -6,17 +6,33 @@ include_in_header: true
 
 # Changelog
 
-## [Test][5.6.2] - 2020-12-02 🧪
+## [Release][5.6.2] - 2020-12-05 🚀
 
-Minor bug fixes.
+- Environment variables can now be added. [https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
+- node-red-dashboard update.
+- a few UI fixes.
+
+Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+
+---
+
+## [Test][5.6.1] - 2020-12-01 🧪
+
+node-red-dashboard update. And a few UI fixes.
+
+<img src="../assets/v562.png" width="200px">
 
 Open testing has begun.
 
 👉 [Join Test](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
 
-Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+## [Test][5.6.0] - 2020-11-29 🧪
 
-## [Release][5.5.2] - 2020-11-28 🚀
+Environment variables can now be added.
+
+[https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
+
+## [Archive][5.5.2] - 2020-11-28 🗄
 
 Specializing in things that can only be done on Android devices.
 Faster startup and support for edge AI and FCM.
@@ -40,20 +56,6 @@ Faster startup and support for edge AI and FCM.
 - node-red-node-dropbox
 - node-red-node-email
 - node-red-node-pushbullet
-
----
-
-## [Test][5.6.1] - 2020-12-01 🧪
-
-node-red-dashboard update. And a few UI fixes.
-
-<img src="../assets/v562.png" width="200px">
-
-## [Test][5.6.0] - 2020-11-29 🧪
-
-Environment variables can now be added.
-
-[https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
 
 ## [Test][5.5.1] - 2020-11-28 🧪
 
