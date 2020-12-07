@@ -6,15 +6,20 @@ include_in_header: true
 
 # Changelog
 
+## [Release][5.6.3] - 2020-12-08 🚀
+
+- Added node-red-node-email again.
+- Changed apiMaxLength to 10mb.
+
+Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+
+---
+
 ## [Release][5.6.2] - 2020-12-05 🚀
 
 - Environment variables can now be added. [https://youtu.be/2ND7LPIFAGM](https://youtu.be/2ND7LPIFAGM)
 - node-red-dashboard update.
 - a few UI fixes.
-
-Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
-
----
 
 ## [Test][5.6.1] - 2020-12-01 🧪
 
