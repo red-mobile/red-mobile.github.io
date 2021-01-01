@@ -5,9 +5,10 @@ include_in_header: false
 ---
 
 **Last updated**  
-March 21 2019
+Jan 1 2021
 
 # Privacy Policy
+
 Hiroyuki Okada built the RedMobile app as a Commercial app. This SERVICE is provided by Hiroyuki Okada and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
@@ -24,7 +25,9 @@ The app does use third party services that may collect information used to ident
 
 Link to privacy policy of third party service providers used by the app
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
+* Google Play Services
+* Google Analytics for Firebase
+* Firebase Crashlytics
 
 **Log Data**
 
@@ -40,10 +43,10 @@ This Service does not use these “cookies” explicitly. However, the app may u
 
 I may employ third-party companies and individuals due to the following reasons:
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+* To facilitate our Service;
+* To provide the Service on our behalf;
+* To perform Service-related services; or
+* To assist us in analyzing how our Service is used.
 
 I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
 
