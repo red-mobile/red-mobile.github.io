@@ -6,6 +6,14 @@ include_in_header: true
 
 # Changelog
 
+## [Release][6.0.3] - 2021-01-06 🚀
+
+- Major UI updates.
+
+Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+
+---
+
 ## [Release][5.6.3] - 2020-12-08 🚀
 
 - Added node-red-node-email again.
@@ -13,7 +21,6 @@ include_in_header: true
 
 Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
 
----
 
 ## [Release][5.6.2] - 2020-12-05 🚀
 
