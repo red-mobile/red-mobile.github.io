@@ -6,13 +6,23 @@ include_in_header: true
 
 # Changelog
 
-## [Release][6.0.3] - 2021-01-06 🚀
+## [Test][7.0.8] - 2021-02-07 🧪
 
-- Major UI updates.
+Finally, we were able to implement the ability for users to add their own nodes.
+The process is a bit complicated, but if you are interested, please give it a try.
+
+For more information, please click [here](https://github.com/okhiroyuki/redmobile-modules-generator).
+
+We've also fixed some minor bugs in the login and flow updates.
 
 Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
 
 ---
+
+## [Release][6.0.3] - 2021-01-06 🚀
+
+- Major UI updates.
+
 
 ## [Release][5.6.3] - 2020-12-08 🚀
 
