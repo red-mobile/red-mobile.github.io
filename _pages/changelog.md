@@ -15,7 +15,7 @@ For more information, please click [here](https://github.com/okhiroyuki/redmobil
 
 We've also fixed some minor bugs in the login and flow updates.
 
-Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
+👉 [Join Test](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
 
 ---
 
@@ -23,6 +23,7 @@ Please join us and give us your [feedback](https://groups.google.com/g/redmobile
 
 - Major UI updates.
 
+Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
 
 ## [Release][5.6.3] - 2020-12-08 🚀
 
@@ -30,7 +31,6 @@ Please join us and give us your [feedback](https://groups.google.com/g/redmobile
 - Changed apiMaxLength to 10mb.
 
 Please join us and give us your [feedback](https://groups.google.com/g/redmobile-apps).
-
 
 ## [Release][5.6.2] - 2020-12-05 🚀
 
@@ -45,8 +45,6 @@ node-red-dashboard update. And a few UI fixes.
 <img src="../assets/v562.png" width="200px">
 
 Open testing has begun.
-
-👉 [Join Test](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
 
 ## [Test][5.6.0] - 2020-11-29 🧪
 
