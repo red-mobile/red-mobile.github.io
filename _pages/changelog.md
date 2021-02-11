@@ -6,6 +6,17 @@ include_in_header: true
 
 # Changelog
 
+## [Release][7.0.8] - 2021-02-11 🚀
+
+Finally, we were able to implement the ability for users to add their own nodes.
+The process is a bit complicated, but if you are interested, please give it a try.
+
+For more information, please click [here](https://github.com/okhiroyuki/redmobile-modules-generator).
+
+We've also fixed some minor bugs in the login and flow updates.
+
+---
+
 ## [Test][7.0.8] - 2021-02-07 🧪
 
 Finally, we were able to implement the ability for users to add their own nodes.
@@ -16,8 +27,6 @@ For more information, please click [here](https://github.com/okhiroyuki/redmobil
 We've also fixed some minor bugs in the login and flow updates.
 
 👉 [Join Test](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
-
----
 
 ## [Release][6.0.3] - 2021-01-06 🚀
 
