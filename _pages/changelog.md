@@ -6,6 +6,14 @@ include_in_header: true
 
 # Changelog
 
+## [Test][7.1.0] - 2021-02-19 🧪
+
+Instead of the inAppBrowser node, a new browser node is added. Please refer to the sample for usage.
+
+In addition, minor modifications have been made to the behavior of the sidebar and back button.
+
+👉 [Join Test](https://play.google.com/apps/testing/com.okhiroyuki.redmobile)
+
 ## [Release][7.0.8] - 2021-02-11 🚀
 
 Finally, we were able to implement the ability for users to add their own nodes.
